@@ -1,6 +1,6 @@
 <?php
 /*
- * Version: 0.1.4
+ * Version: 0.2.0
 Plugin Name: Rumble
 Description: Kiosk quoting for Bear Traxs with quote accept + product creation.
 Author: Bear Traxs
@@ -13,7 +13,7 @@ if (!defined('ABSPATH')) exit;
 
 
 
-define('RUMBLE_VERSION', '0.1.4');
+define('RUMBLE_VERSION', '0.2.0');
 define('RUMBLE_PATH', plugin_dir_path(__FILE__));
 define('RUMBLE_URL', plugin_dir_url(__FILE__));
 define('RUMBLE_SLUG', plugin_basename(__FILE__));
@@ -33,6 +33,7 @@ require_once RUMBLE_PATH.'includes/email-intake.php';
 require_once RUMBLE_PATH.'includes/email.php';
 require_once RUMBLE_PATH.'includes/product.php';
 require_once RUMBLE_PATH.'includes/woocommerce_bridge.php';
+require_once RUMBLE_PATH.'includes/popup-manifest.php';
 require_once RUMBLE_PATH.'includes/workorders.php';
 require_once RUMBLE_PATH.'includes/reporting.php';
 require_once RUMBLE_PATH.'includes/purchasing.php';
